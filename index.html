@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- =================[ Bootstrap Plugin ]================ -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/61fe4c242a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- =================[ Animate On Scroll Plugin ]================ -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- =================[ External CSS ]================ -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>PhotoX</title>
+  </head>
+
+  <body>
+
+    <div class="scrolWrap">
+    <div id="scroll-progress"></div>
+    </div>
+
+    <div id="navbar">
+      <nav class="navbar navbar-expand-lg fixed-top mt-1 nav-menu">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">
+            <span class="h2 fw-bold">PHOTO</span>
+            <span class="h1 iconStyle">X</span>
+          </a>
+          <button
+            class="navbar-toggler nav-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <div class="bg-light line1"></div>
+            <div class="bg-light line2"></div>
+            <div class="bg-light line3"></div>
+          </button>
+        </div>
+
+        <div
+          class="collapse navbar-collapse text-uppercase fw-bold text-light"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link text-light m-2 menu-item"
+                aria-current="page"
+                href="#"
+              >
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light m-2 menu-item"
+                aria-current="page"
+                href="#abs"
+              >
+                MISSION
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light m-2 menu-item"
+                aria-current="page"
+                href="#"
+              >
+                COLLECTION
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light m-2 menu-item"
+                aria-current="page"
+                href="#"
+              >
+                GALLERY
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light m-2 menu-item"
+                aria-current="page"
+                href="#"
+              >
+                CUSTOMERS
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light m-2 menu-item"
+                aria-current="page"
+                href="#"
+              >
+                PRICING
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light m-2 menu-item"
+                aria-current="page"
+                href="#"
+              >
+                CONTACT
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- ===============[ Banner ]============= -->
+
+    <section id="banner">
+      <div class="text-light text-md-end text-center banner">
+        <h1 class="display-4 banner-heading" data-aos="fade-left">
+          Welcome to <span class="text-uppercase">Photo</span>
+          <span class="display-2 x fw-normal">X</span>
+          <p class="lead banner-par">
+            Lorem ipsum dolor sit amet consector adipicing.
+          </p>
+        </h1>
+      </div>
+    </section>
+
+    <!-- ===================[ Mission ]=================== -->
+
+    <section class="p-5 mission">
+      <div class="container-fluid">
+        <div class="row text-center">
+          <!-- =====[title]======== -->
+
+          <div class="col m-4">
+            <h1 class="display-4 mb-4 text-white">Mission</h1>
+            <div class="underline mb-4"></div>
+            <p class="text-secondary">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen
+            </p>
+          </div>
+
+          <div class="row my-5">
+            <div class="col-md-4 text-center mb-4">
+              <i class="fas fa-cogs fa-5x mb-4 iconStyle"></i>
+              <h1 class="text-light mb-3">Creativity</h1>
+              <p class="text-secondary">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen"
+              </p>
+            </div>
+            <div class="col-md-4 text-center mb-4">
+              <i class="fas fa-thumbs-up fa-5x mb-4 iconStyle"></i>
+              <h1 class="text-light mb-3">Quality</h1>
+              <p class="text-secondary">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen"
+              </p>
+            </div>
+            <div class="col-md-4 text-center mb-4">
+              <i class="fas fa-handshake fa-5x mb-4 iconStyle"></i>
+              <h1 class="text-light mb-3">Experience</h1>
+              <p class="text-secondary">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen"
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row align-align-items-center">
+            <div class="col-lg-5 text-center">
+              <img
+                src="images/cam.png"
+                alt="Logo"
+                width="350"
+                class="img-fluid camera-img"
+                data-aos="slide-right"
+              />
+            </div>
+            <div
+              class="col-lg-7 text-lg-end text-center mission-text text-light"
+            >
+              <h1>We know what we do</h1>
+              <p class="text-secondary">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======[ Collection ]======== -->
+    <section id="collections" class="bg-secondary py-4">
+      <div class="container-fluid">
+        <div class="row text-center">
+          <!-- =====[title]======== -->
+
+          <div class="col m-4">
+            <h1 class="display-4 mb-4 text-dark">Collection</h1>
+            <div class="underline mb-4 border-dark"></div>
+            <p class="lead fw-normal">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen
+            </p>
+          </div>
+
+          <div class="row m-auto">
+            <div class="col-lg-4 col-sm-6 my-3">
+              <div class="card border-0 card-shadow">
+                <img
+                  src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                  class="card-img"
+                  alt="img"
+                />
+                <div class="card-img-overlay">
+                  <h5 class="text-white text-uppercase fw-bold p-2 heading">
+                    Nature Photography
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 my-3">
+              <div class="card border-0 card-shadow">
+                <img
+                  src="https://images.unsplash.com/photo-1604017011826-d3b4c23f8914?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                  class="card-img"
+                  alt="img"
+                />
+                <div class="card-img-overlay">
+                  <h5 class="text-white text-uppercase fw-bold p-2 heading">
+                    Wedding Photography
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 my-3">
+              <div class="card border-0 card-shadow">
+                <img
+                  src="https://images.unsplash.com/photo-1561525140-c2a4cc68e4bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                  class="card-img"
+                  alt="img"
+                />
+                <div class="card-img-overlay">
+                  <h5 class="text-white text-uppercase fw-bold p-2 heading">
+                    Family Photography
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 my-3">
+              <div class="card border-0 card-shadow">
+                <img
+                  src="https://images.unsplash.com/photo-1599920609546-63c1b2422f20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                  class="card-img"
+                  alt="img"
+                />
+                <div class="card-img-overlay">
+                  <h5 class="text-white text-uppercase fw-bold p-2 heading">
+                    Baby Photography
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 my-3">
+              <div class="card border-0 card-shadow">
+                <img
+                  src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                  class="card-img"
+                  alt="img"
+                />
+                <div class="card-img-overlay">
+                  <h5 class="text-white text-uppercase fw-bold p-2 heading">
+                    Party Photography
+                  </h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 my-3">
+              <div class="card border-0 card-shadow">
+                <img
+                  src="https://images.unsplash.com/photo-1612477954469-c6a60de89802?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                  class="card-img"
+                  alt="img"
+                />
+                <div class="card-img-overlay">
+                  <h5 class="text-white text-uppercase fw-bold p-2 heading">
+                    Fassion Photography
+                  </h5>
+                </div>
+              </div>
+              
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============[ Gallery ]========== -->
+
+    
+    <section class="py-5">
+      <div class="container-fluid">
+    <div class="row  text-center">
+
+      
+
+      <div class="col m-4">
+        <h1 class="display-4 mb-4 text-dark">Galleray</h1>
+        <div class="underline mb-4 border-dark"></div>
+        <p class="lead fw-normal">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text
+          ever since the 1500s, when an unknown printer took a galley of
+          type and scrambled it to make a type specimen
+        </p>
+      </div>
+        <ul class="list-inline text-center text-uppercase fw-bold my-4">
+          <li
+            class="list-inline-item gallery-list-item active-item"
+            data-bs-filter="All"
+          >
+            All<span class="mx-md-5 mx-3 text-muted">/</span>
+          </li>
+          <li class="list-inline-item gallery-list-item" data-bs-filter="WildLife">
+            WildLife<span class="mx-md-5 mx-3 text-muted">/</span>
+          </li>
+          <li class="list-inline-item gallery-list-item" data-bs-filter="nature">
+            Nature<span class="mx-md-5 mx-3 text-muted">/</span>
+          </li>
+          <li class="list-inline-item gallery-list-item" data-bs-filter="City">
+            City
+          </li>
+        </ul>
+
+        <div class="container-fluid">
+          <div class="d-flex flex-wrap justify-content-center">
+            
+    <div class="filter nature">
+      <img src="https://images.unsplash.com/photo-1585426007948-fbc4076728f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80"
+      data-tilt data-tilt-scale="1.8" data-tilt-speed="1000" data-tilt-max="1" transiton="true"
+      width=310 height=210 alt="gallery-img" />
+    </div>
+            
+    <div class="filter nature">
+      <img src="https://images.unsplash.com/photo-1562832135-14a35d25edef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1545&q=80"
+      data-tilt data-tilt-scale="1.8" data-tilt-speed="1000" data-tilt-max="1" transiton="true"
+              
+      width=310 height=210 alt="gallery-img" />
+    </div>
+            
+    <div class="filter nature">
+      <img src="https://images.unsplash.com/photo-1664516918198-e7ddd1bade3c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80"
+      data-tilt data-tilt-scale="1.8" data-tilt-speed="1000" data-tilt-max="1" transiton="true"
+              
+      width=310 height=210 alt="gallery-img" />
+    </div>
+            
+    <div class="filter nature">
+      <img src="https://images.unsplash.com/photo-1656860444750-dd91d7fecfc7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+      data-tilt data-tilt-scale="1.8" data-tilt-speed="1000" data-tilt-max="1" transiton="true"
+              
+      width=310 height=210 alt="gallery-img" />
+    </div>
+            
+    <div class="filter WildLife">
+      <img src="https://images.unsplash.com/photo-1669220929620-0525acdc2e0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+      data-tilt data-tilt-scale="1.8" data-tilt-speed="1000" data-tilt-max="1" transiton="true"
+              
+      width=310 height=210 alt="gallery-img" />
+    </div>
+            
+    <div class="filter WildLife">
+      <img src="https://images.unsplash.com/photo-1669281151275-1d430c0a3496?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1442&q=80"
+      data-tilt data-tilt-scale="1.8" data-tilt-speed="1000" data-tilt-max="1" transiton="true"
+              
+      width=310 height=210 alt="gallery-img" />
+    </div>
+            
+    <div class="filter WildLife">
+      <img src="https://images.unsplash.com/photo-1508817628294-5a453fa0b8fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+      data-tilt data-tilt-scale="1.8" data-tilt-speed="1000" data-tilt-max="1" transiton="true"
+              
+      width=310 height=210 alt="gallery-img" />
+    </div>
+            
+    <div class="filter WildLife">
+      <img src="https://images.unsplash.com/photo-1504715329877-f69f5258f4e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80"
+      data-tilt data-tilt-scale="1.8" data-tilt-speed="1000" data-tilt-max="1" transiton="true"
+              
+      width=310 height=210 alt="gallery-img" />
+    </div>
+            
+    <div class="filter WildLife">
+      <img src="https://images.unsplash.com/photo-1504618223053-559bdef9dd5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+      data-tilt data-tilt-scale="1.8" data-tilt-speed="1000" data-tilt-max="1" transiton="true"
+              
+      width=310 height=210 alt="gallery-img" />
+    </div>
+            
+    <div class="filter WildLife">
+      <img src="https://images.unsplash.com/photo-1575532777978-623355a90473?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+      data-tilt data-tilt-scale="1.8" data-tilt-speed="1000" data-tilt-max="1" transiton="true"
+              
+      width=310 height=210 alt="gallery-img" />
+    </div>
+            
+    <div class="filter WildLife">
+      <img src="https://images.unsplash.com/photo-1502051897604-58025075ce54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+      data-tilt data-tilt-scale="1.8" data-tilt-speed="1000" data-tilt-max="1" transiton="true"
+              
+      width=310 height=210 alt="gallery-img" />
+    </div>
+            
+    <div class="filter WildLife">
+      <img src="https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+      data-tilt data-tilt-scale="1.8" data-tilt-speed="1000" data-tilt-max="1" transiton="true"
+              
+      width=310 height=210 alt="gallery-img" />
+    </div>
+            
+    <div class="filter City">
+      <img src="https://images.unsplash.com/photo-1569317002804-ab77bcf1bce4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+      data-tilt data-tilt-scale="1.8" data-tilt-speed="1000" data-tilt-max="1" transiton="true"
+              
+      width=310 height=210 alt="gallery-img" />
+    </div>
+            
+    <div class="filter City">
+      <img src="https://images.unsplash.com/photo-1625895197185-efcec01cffe0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+      data-tilt data-tilt-scale="1.8" data-tilt-speed="1000" data-tilt-max="1" transiton="true"
+              
+      width=310 height=210 alt="gallery-img" />
+    </div>
+            
+    <div class="filter City">
+      <img src="https://images.unsplash.com/photo-1626155399229-a59970db8478?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+      data-tilt data-tilt-scale="1.8" data-tilt-speed="1000" data-tilt-max="1" transiton="true"
+      width=310 height=210 alt="gallery-img" />
+    </div>
+            
+    <div class="filter City">
+      <img src="https://images.unsplash.com/photo-1435536822168-639c33ca2eab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+      data-tilt data-tilt-scale="1.8" data-tilt-speed="1000" data-tilt-max="1" transiton="true"
+      width=310 height=210 alt="gallery-img" />
+    </div>
+            
+    <div class="filter City">
+      <img src="https://images.unsplash.com/photo-1626155399627-86488538895d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+      data-tilt data-tilt-scale="1.8" data-tilt-speed="1000" data-tilt-max="1" transiton="true"       
+       width=310 height=210 alt="gallery-img" />
+    </div>
+            
+    <div class="filter City">
+      <img src="https://images.unsplash.com/photo-1672250164293-904288338586?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+      data-tilt data-tilt-scale="1.8" data-tilt-speed="1000" data-tilt-max="1" transiton="true"     
+       width=310 height=210 alt="gallery-img" />
+    </div>
+            
+    <div class="filter City">
+      <img src="https://images.unsplash.com/photo-1669472386738-06ad234905ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+      data-tilt data-tilt-scale="1.8" data-tilt-speed="1000" data-tilt-max="1" transiton="true"
+       width=310 height=210 alt="gallery-img" />
+    </div>
+            
+    <div class="filter City">
+      <img src="https://images.unsplash.com/photo-1670644009691-7e57accee1c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+      data-tilt data-tilt-scale="1.8" data-tilt-speed="1000" data-tilt-max="1" transiton="true"
+       width=310 height=210 alt="gallery-img" />
+    </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ==========[ Customers ]============= -->
+
+    
+    <section class="p-5 customers">
+      <div class="container-fluid">
+    <div class="row  text-center">
+      <!-- =====[title]======== -->
+
+      <div class="col m-4">
+        <h1 class="display-4 mb-4 text-white">Happy Customers</h1>
+        <div class="underline mb-4"></div>
+        <p class="text-secondary">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text
+          ever since the 1500s, when an unknown printer took a galley of
+          type and scrambled it to make a type specimen
+        </p>
+      </div>
+
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide w-100 m-auto"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active text-center">
+              <img
+                src="https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+                class="img-fluid rounded-circle m-5"
+                width=150
+                alt="..."
+              />
+              <blockquote class="blockquote text-white">
+                <p class="mb-5 fs-6 w-75 m-auto">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen
+                </p>
+              </blockquote>
+              <h6 class="text-light text-uppercase fw-bold">
+                Jesica Kevin
+              </h6>
+              <h2 class="mb-5 text-warning">★★★★★</h2>
+            </div>
+
+            <div class="carousel-item text-center">
+              <img
+                src="https://images.unsplash.com/photo-1654110455429-cf322b40a906?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+                class="img-fluid rounded-circle m-5"
+                width=150
+                alt="..."
+              />
+              <blockquote class="blockquote text-white">
+                <p class="mb-5 fs-6 w-75 m-auto">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen
+                </p>
+              </blockquote>
+              <h5 class="text-light text-uppercase fw-bold ">John smith</h5>
+              <h2 class="mb-5 text-warning">★★★★★</h2>
+            </div>
+
+            <div class="carousel-item text-center">
+              <img
+                src="https://images.unsplash.com/photo-1618077360395-f3068be8e001?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+                class="img-fluid rounded-circle m-5"
+                width=150
+                alt="..."
+              />
+              <blockquote class="blockquote text-white">
+                <p class="mb-5 fs-6 w-75 m-auto">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen
+                </p>
+              </blockquote>
+              <h5 class="text-light text-uppercase fw-bold">Jake lorens</h5>
+              <h2 class="mb-5 text-warning">★★★★★</h2>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev d-none"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next d-none"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======[ Pricing ]====== -->
+
+    
+    <section className="bg-light text-center p-5">
+      <div className="container-fluid">
+    <div className="row  text-center">
+      
+      
+      <div class="col m-4 text-center">
+        <h1 class="display-4 mb-4 text-dark">Join Us</h1>
+        <div class="underline mb-4 border-dark"></div>
+        <p class="lead fw-normal">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text
+          ever since the 1500s, when an unknown printer took a galley of
+          type and scrambled it to make a type specimen
+        </p>
+      </div>
+
+
+
+        <div className="row align-items-center  m-auto">
+          
+    <div className="col-lg-4" data-aos="zoom-in">
+          
+      <div className="col-lg-4" data-aos="zoom-in">
+        <div className="card card-1 text-light my-4 mx-auto ">
+          <div className="card-body">
+            <h5 className="text-uppercase fw-bold mb-5">Monthly</h5>
+            <h1 className="display-4">
+              <i className="fas fa-dollar-sign iconStyle" />19
+            </h1>
+            <ul className="list-unstyled">
+              <li className="fw-bold py-3 card-list-item">Photoshop</li>
+              <li className="fw-bold py-3 card-list-item">After Effects</li>
+              <li className="fw-bold py-3 card-list-item">Graphic Design</li>
+              <li className="fw-bold py-3 card-list-item">Video Montage</li>
+            </ul>
+            <a
+              href="#"
+              className="btn rounded-2 tw-bold text-white signup " style="background:#F40009"
+            >
+              Subscribe
+            </a>
+          </div>
+        </div>
+      </div>
+          
+    <div className="col-lg-4" data-aos="zoom-in">
+      <div className="card card-1 text-light my-4 mx-auto ">
+        <div className="card-body">
+          <h5 className="text-uppercase fw-bold mb-5">Monthly</h5>
+          <h1 className="display-4">
+            <i className="fas fa-dollar-sign iconStyle" />19
+          </h1>
+          <ul className="list-unstyled">
+            <li className="fw-bold py-3 card-list-item">Photoshop</li>
+            <li className="fw-bold py-3 card-list-item">After Effects</li>
+            <li className="fw-bold py-3 card-list-item">Graphic Design</li>
+            <li className="fw-bold py-3 card-list-item">Video Montage</li>
+          </ul>
+          <a
+            href="#"
+            className="btn rounded-2 tw-bold text-white signup " style="background:#F40009"
+          >
+            Subscribe
+          </a>
+        </div>
+      </div>
+    </div>
+      <div className="card card-1 text-light my-4 mx-auto ">
+        <div className="card-body">
+          <h5 className="text-uppercase fw-bold mb-5">Monthly</h5>
+          <h1 className="display-4">
+            <i className="fas fa-dollar-sign iconStyle" />19
+          </h1>
+          <ul className="list-unstyled">
+            <li className="fw-bold py-3 card-list-item">Photoshop</li>
+            <li className="fw-bold py-3 card-list-item">After Effects</li>
+            <li className="fw-bold py-3 card-list-item">Graphic Design</li>
+            <li className="fw-bold py-3 card-list-item">Video Montage</li>
+          </ul>
+          <a
+            href="#"
+            className="btn rounded-2 tw-bold text-white signup " style="background:#F40009"
+          >
+            Subscribe
+          </a>
+        </div>
+      </div>
+    </div>
+
+        </div>
+
+        <div className="my-5 ">
+          <h2 className="text-muted mb-4">Thanks for being with us!</h2>
+          <i className="fas fa-coffee fa-3x iconStyle" />
+        </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    
+    
+    <!-- ======[ Footer ]====== -->
+    <section class="px-5 text-start mass-primary">
+      <div class="container-fluid">
+        <div class="row text-light py-4">
+          <div class="col-lg-4 col-sm-6">
+            <h5 class="pb-3">About Us</h5>
+            <p class="small">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-sm-6">
+            <h5 class="pb-3">Visit Us</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="footer-link menu-item">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-link menu-item">
+                  Mission
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-link menu-item">
+                  Collection
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-link menu-item">
+                  Gallery
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-link menu-item">
+                  Customer
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-link menu-item">
+                  Pricing
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-link menu-item">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-sm-6">
+            <h5 class="pb-3">Need Help?</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="footer-link text-uppercase menu-item">
+                  customer service
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-link text-uppercase menu-item">
+                  online chat
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-link text-uppercase menu-item">
+                  support
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer-link menu-item">
+                  photox@gmail.com
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <h5 class="pb-3">Stay connected</h5>
+            <p class="small">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen
+            </p>
+            <form class="mb-3">
+              <div class="input-group">
+                <input class="form-control input rounded-0 border-0" placeholder="Email Adress" />
+                <div class="input-group-append">
+                  <button class="btn rounded-0 tw-bold text-white" style="background:#F40009">Sign Up</button>
+                </div>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- =======[ Tilt ]========= -->
+    
+<!-- at the end of the body -->
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+
+
+    <!-- ===========[ JQuery Plugin ]============== -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+
+    <!-- =================[ Animate On Scroll Plugin ]================ -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1200,
+      });
+    </script>
+
+    <!-- ==================[ Bootstrap Plugin ]====================== -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
